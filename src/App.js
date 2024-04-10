@@ -1,19 +1,21 @@
+import React from 'react';
 import Header from './components/header';
-import Card from './components/сard';
-import List from './components/listofwords';
+// import Card from './components/сard';
+// import List from './components/listofwords';
+// import Cards from './components/сard';
+// import Main from './components/main';
+import CardsFromMain from './components/cardsAndMain';
 import Footer from './components/footer';
 
 import './App.css';
 
 function App() {
   return (
-      <div>
+      <div id='container'>
           <Header />
-          {/* Other components or content */}
-          <Card />
-          <List />
+          <CardsFromMain />
           <Footer />
-      </div>
+    //  </div>
   );
 }
 

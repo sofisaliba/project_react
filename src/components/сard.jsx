@@ -49,6 +49,16 @@
 // }
 
 // export default Cards;
+
+
+
+
+//АКТИВНАЯ ЧАСТЬ С БОТСРАПОМ ДАЛЬШЕ
+
+
+
+
+
 import Button from 'react-bootstrap/Button';
  import Card from 'react-bootstrap/Card';
 function Cards() {

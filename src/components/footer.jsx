@@ -1,6 +1,8 @@
+import styles from './footer.module.css'
+
 function Footer() {
     return (
-        <footer className="footer">
+        <footer className={styles.footer}>
             <nav>
                 <ul>
                     <li><a href="/">Home</a></li>
