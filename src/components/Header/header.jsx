@@ -13,6 +13,17 @@ function Header() {
                 </ul>
             </nav>
         </header>
+        // <>
+        // <h1>
+        //     Expand your vocabulary with <span className={styles.logo}>LexiCa🍁</span> - where words come to life!
+        // </h1>
+        // <nav>
+        //     <ul>
+        //         <li><Link to={'/card'}>Cards</Link></li>
+        //         <li><Link to={'/listofwords'}>List of words</Link></li>
+        //     </ul>
+        // </nav>
+        // </>
     );
 }
 

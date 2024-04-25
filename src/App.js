@@ -1,22 +1,50 @@
 import React from 'react';
-import Header from './components/header';
-// import Card from './components/сard';
-// import List from './components/listofwords';
-// import Cards from './components/сard';
-// import Main from './components/main';
-import CardsFromMain from './components/cardsAndMain';
-import Footer from './components/footer';
+import Header from './components/Header/header';
+//import MyForm from './components/listofwords';
+import CardsFromMain from './components/Card/RouteForCards/cardsAndMain';
+import Footer from './components/Footer/footer';
+// import Cards from './components/sum';
+
 
 import './App.css';
+// import { Router } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+//import Cards from './components/sum';
+// function App() {
+//   return (
+//       <div id='container'>
+//           <Header />
+//           <MyForm/>
+//           {/* <Cards /> */}
+//           <CardsFromMain />
+//           <Footer />
+//     //  </div>
+//   );
+// }
 
-function App() {
+ function App () {
   return (
-      <div id='container'>
-          <Header />
-          <CardsFromMain />
-          <Footer />
-    //  </div>
-  );
-}
+
+ <Router>
+
+   {/* <Header showLoginForm={showLoginForm} u /> */}
+   {/* {isLoginFormShown && <LoginForm closeLoginForm={closeLoginForm} />} */}
+   <Header/>
+  
+     <Routes>
+      {/* <Route exact path="/listofwords" element={<MyForm />} /> */}
+       {/* <Route exact path="/card" element={<Cards />} /> */}
+       <Route exact path="/cardsAndMain" element={<CardsFromMain/>} />
+      
+      
+     </Routes>
+  
+   <Footer />
+
+  
+ </Router>
+ 
+   );
+ }
 
 export default App;
