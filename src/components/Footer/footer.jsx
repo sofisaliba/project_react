@@ -1,6 +1,6 @@
 //import { Card } from 'react-bootstrap';
 import styles from './footer.module.css'
-import { BrowserRouter as Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
