@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ReactCardFlip from "react-card-flip";
-import ToDoList from "./listofwords";
+import ToDoList from "./myform";
 // import styles from './card.module.css'
 // //import React, { useState } from 'react';
 // import AddButton from './buttonOnCard';

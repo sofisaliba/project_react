@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './listofwords.module.css'; // Подключаем файл стилей
+import styles from './myform.module.css'; // Подключаем файл стилей
 
 function MyForm() {
     // Состояния для хранения значений input и введенных значений

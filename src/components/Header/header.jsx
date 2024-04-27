@@ -1,4 +1,5 @@
 import styles from './header.module.css'
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -6,24 +7,11 @@ function Header() {
             <img src="logo.png" alt="Company Logo" className="logo" />
             <nav>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/services">Services</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                <Link to="/">Home</Link>
                 </ul>
             </nav>
         </header>
-        // <>
-        // <h1>
-        //     Expand your vocabulary with <span className={styles.logo}>LexiCa🍁</span> - where words come to life!
-        // </h1>
-        // <nav>
-        //     <ul>
-        //         <li><Link to={'/card'}>Cards</Link></li>
-        //         <li><Link to={'/listofwords'}>List of words</Link></li>
-        //     </ul>
-        // </nav>
-        // </>
+
     );
 }
 
