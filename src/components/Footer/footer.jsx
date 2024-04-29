@@ -7,7 +7,8 @@ function Footer() {
         <footer className={styles.footer}>
             
             <Link to="/listofwords">List of Words</Link>
-    <Link to="/cards">Cards</Link>
+    {/* <Link to="/cards">Cards</Link> */}
+    <Link to="/card">Cards</Link>
             
         </footer>
     );

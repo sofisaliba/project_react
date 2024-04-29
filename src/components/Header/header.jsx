@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <header className={styles.header}>
-            <img src="logo.png" alt="Company Logo" className="logo" />
+            <img src="/scrabble.png" alt="Company Logo" className="logo"  />
+            
             <nav>
                 <ul>
                 <Link to="/">Home</Link>

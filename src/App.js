@@ -5,6 +5,7 @@ import Footer from './components/Footer/footer';
 import MyForm from './components/myform';
 import Card from './components/сard';
 import Missing from './components/Missing';
+//import CardCarousel from './components/setofcards';
 
 
 import './App.css';
@@ -24,7 +25,9 @@ function App() {
     
           <Route path='/' element={<Content/>}/>
           <Route path='/listofwords' element={<MyForm/>}/>
-          <Route path='/cards' element={<Card/>}/>
+          
+          <Route path='/card' element={<Card/>}/>
+          
           <Route path='*' element={<Missing/>}/>
 
 

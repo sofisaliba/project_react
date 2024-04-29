@@ -9,7 +9,7 @@ function Content() {
         <div className={styles.main}>
     <p className={styles.name}>Учи язык эффективно</p>
 
-<button className={styles.showCards}>Игра</button>
+{/* <button className={styles.showCards}>Игра</button> */}
 
                    
   </div>
